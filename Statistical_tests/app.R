@@ -1,5 +1,7 @@
 # Load the shiny package
 library(shiny)
+library(shinylive)
+library(httpuv)
 
 # Define the User Interface (UI)
 ui <- fluidPage(
